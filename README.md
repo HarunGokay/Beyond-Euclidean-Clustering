@@ -138,9 +138,3 @@ diffusion_clustering [dataset] [method] [k] [eps] [minpts] [t]
 ## License
 
 This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## Results
-
-(screenshots)
