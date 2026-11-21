@@ -1,4 +1,4 @@
-# diffusion clustering
+# modified clustering
 
 this is a project i did a while ago when learning c++ and math, i was learning about ml methods and spectral theory, was curious on how i could combine them (improve)
 
