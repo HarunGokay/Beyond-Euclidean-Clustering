@@ -41,7 +41,7 @@ Higher frequencies (large $\lambda_k$) decay exponentially at rate $e^{-\lambda_
 
 Selecting the first $m$ non-trivial eigenvectors $v_1, v_2, \dots, v_m \in \mathbb{R}^N$ with corresponding eigenvalues $\lambda_1 \le \lambda_2 \le \dots \le \lambda_m$, we define the diffusion coordinate matrix $\Psi \in \mathbb{R}^{N \times m}$:
 
-$$\Psi = \begin{bmatrix} v_1 & v_2 & \dots & v_m \end{bmatrix} \operatorname{diag}\left(e^{-\lambda_1 t}, e^{-\lambda_2 t}, \dots, e^{-\lambda_m t}\right)$$
+$$\Psi = \begin{bmatrix} v_1 & v_2 & \dots & v_m \end{bmatrix} \mathrm{diag}\left(e^{-\lambda_1 t}, e^{-\lambda_2 t}, \dots, e^{-\lambda_m t}\right)$$
 
 Each data point $x_i$ is mapped to a vector row $\Psi(x_i) \in \mathbb{R}^m$:
 
